@@ -39,6 +39,7 @@
  *************************************************/
 body {
     background-color: #f6f5f3;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 
  .container {
@@ -58,7 +59,7 @@ body {
 
  h1 {
     color: #422c5f;
-    font-size: 46px;
+    font-size: 3.5rem;
  }
 
  .titolo-pt-2 {
@@ -260,6 +261,10 @@ hr {
     display: block;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
 .cont-video {
     width: 100%;
 }
@@ -296,13 +301,6 @@ hr {
     justify-content: center;
 }
 
-/* prova bonus */
-.cont-txt ul {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 }
 
 /* ********************************************* */
@@ -324,6 +322,10 @@ header {
     display: none;
 }
 
+h1 {
+    font-size: 1rem;;
+}
+
 /* sezione social 
 (aggiustato size box)*/
 .box {
@@ -339,7 +341,7 @@ header {
 .cont-foto-e-curiosità-ricetta {
     display: block;
     line-height: 2;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .cont-foto-e-curiosità-ricetta img {
