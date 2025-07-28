@@ -251,6 +251,10 @@ hr {
 /* TABLET */
 @media screen and (max-width:1020px) {
 
+.container {
+    width: 90%;
+}
+
 /* sezione video e prime info ricetta */
 .cont-video-e-txt {
     display: block;
@@ -264,10 +268,27 @@ hr {
     width: 100%;
 }
 
-/* sezione social */
+/* sezione social
+(eliminato nomi social) */
  .nome-social {
     display: none;
   }
+
+/* footer 
+(impostato elementi al centro)*/
+.cont-footer {
+    display: block;
+    text-align: center;
+}
+
+.cont-right {
+    display: block;
+    padding-top: 14px;
+}
+
+.cont-right ul {
+    justify-content: center;
+}
 
 }
 
