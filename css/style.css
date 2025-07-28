@@ -297,11 +297,33 @@ hr {
 /* SMARTPHONE */
  @media screen and (max-width:640px) {
 
+/* titolo ricetta
+("eliminato" titolo tra parentesi) */
 .titolo-pt-2 h1 {
     display: none;
 }
 
+/* sezione social 
+(aggiustato size box)*/
 .box {
     width: 5%; 
+}
+
+.cont-banner {
+    display: none;
+}
+
+.cont-foto-e-curiosità-ricetta {
+    display: block;
+}
+
+.cont-foto-e-curiosità-ricetta img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.float-sx {
+    float: none;
 }
  }
