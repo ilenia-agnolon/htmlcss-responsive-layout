@@ -297,4 +297,11 @@ hr {
 /* SMARTPHONE */
  @media screen and (max-width:640px) {
 
+.titolo-pt-2 h1 {
+    display: none;
+}
+
+.box {
+    
+}
  }
