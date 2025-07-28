@@ -297,6 +297,10 @@ hr {
 /* SMARTPHONE */
  @media screen and (max-width:640px) {
 
+.container {
+    width: 95%;
+}
+
 /* titolo ricetta
 ("eliminato" titolo tra parentesi) */
 .titolo-pt-2 h1 {
@@ -309,21 +313,31 @@ hr {
     width: 5%; 
 }
 
+/* banner */
 .cont-banner {
     display: none;
 }
 
+/* sezione PRESENTATION */
 .cont-foto-e-curiosità-ricetta {
     display: block;
+    line-height: 2;
+    font-size: 1.3rem;
 }
 
 .cont-foto-e-curiosità-ricetta img {
     display: block;
     width: 50%;
     margin: 0 auto;
+    padding-bottom: 10px;
+
 }
 
 .float-sx {
     float: none;
+}
+
+hr {
+    width: 6rem;
 }
  }
