@@ -240,12 +240,6 @@ hr {
     gap: 30px;
     list-style: none;
  }
-
-
-
-
-
- 
  
  
  /*************************************************
@@ -257,6 +251,7 @@ hr {
 /* TABLET */
 @media screen and (max-width:1020px) {
 
+/* sezione video e prime info ricetta */
 .cont-video-e-txt {
     display: block;
 }
@@ -269,9 +264,15 @@ hr {
     width: 100%;
 }
 
+/* sezione social */
+ .nome-social {
+    display: none;
+  }
+
 }
 
 
+/* ********************************************* */
 /* SMARTPHONE */
  @media screen and (max-width:640px) {
 
