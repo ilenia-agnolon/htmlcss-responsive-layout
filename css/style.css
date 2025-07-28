@@ -274,6 +274,12 @@ hr {
     display: none;
   }
 
+/*sezione "PRESENTATION */
+.cont-foto-e-curiosità-ricetta img {
+  width: 40%;
+}
+
+
 /* footer 
 (impostato elementi al centro)*/
 .cont-footer {
@@ -290,9 +296,16 @@ hr {
     justify-content: center;
 }
 
+/* prova bonus */
+.cont-txt ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
+}
 
+/* ********************************************* */
 /* ********************************************* */
 /* SMARTPHONE */
  @media screen and (max-width:640px) {
