@@ -87,6 +87,7 @@ body {
 }
 
 .cont-txt {
+    background-color: white;
     width: 30%;
     padding: 20px 30px;
 }
