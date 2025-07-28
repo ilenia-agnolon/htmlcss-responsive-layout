@@ -101,9 +101,49 @@ body {
    list-style: none;
    line-height: 2.5; 
 }
-
-
  /* ___________________________________________ */
+
+ /* SEZIONE SOCIAL */
+
+.cont-social {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+/* -----> icone social */
+.box {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 15%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icona {
+    background-color: rgb(159, 217, 255);
+    display: flex;
+    align-items: flex-start;
+}
+
+.fa-facebook {
+    color: #0062fe;
+}
+
+
+/* -----> nome social */
+.nome-social {
+    background-color: pink;
+}
+
+
+
+
+
 
 
   /*************************************************
