@@ -118,6 +118,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
     padding: 10px 20px;
     border-radius: 20px;
     width: 15%;
@@ -125,7 +126,6 @@ body {
 }
 
 .icona {
-    background-color: rgb(159, 217, 255);
     display: flex;
     align-items: flex-start;
 }
@@ -137,7 +137,7 @@ body {
 
 /* -----> nome social */
 .nome-social {
-    background-color: pink;
+    
 }
  /* ___________________________________________ */
 
