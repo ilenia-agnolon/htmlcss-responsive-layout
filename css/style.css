@@ -41,7 +41,6 @@ body {
 
  .container {
     width: 70%;
-    background-color: blueviolet;
     height: 2000px;
     margin: 0 auto;
  }
@@ -150,10 +149,46 @@ body {
    width: 100%;
    display: block; 
 }
+/* ___________________________________________ */
 
+/* SEZIONE FOTO DOLCE E CURIOSITà RICETTA */
+h2 {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    padding-top: 10px;
+    font-weight: 400;
+}
 
+hr {
+    height: 3px;
+    border: 2px solid #f6b977;
+    width: 7%;
+    margin-top: 10px;
+}
 
+.cont-foto-e-curiosità-ricetta {
+    width: 100%;
+    display: flex;
+    padding-top: 25px;
+    line-height: 1.5;
+    font-size: 18px;
+}
 
+.cont-foto-e-curiosità-ricetta img {
+   width: 25%;
+   display: block; 
+}
+
+.clearfix::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.float-sx {
+    float: left;
+    margin-right: 10px;
+}
 
 
 
