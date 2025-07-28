@@ -301,6 +301,10 @@ hr {
     width: 95%;
 }
 
+header {
+    justify-content: center;
+}
+
 /* titolo ricetta
 ("eliminato" titolo tra parentesi) */
 .titolo-pt-2 h1 {
