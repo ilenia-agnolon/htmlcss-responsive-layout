@@ -30,9 +30,43 @@
   /*************************************************
     MAIN
  *************************************************/
- main {
-    height: 600px;
+body {
     background-color: #f6f5f3;
+}
+
+ main {
+    /* debug */
+    height: 600px;
+ }
+
+ .container {
+    width: 70%;
+    background-color: blueviolet;
+    margin: 0 auto;
+ }
+
+
+ /* sezione video e prime info ricetta */
+ .cont-titolo {
+    background-color: rgb(28, 179, 161);
+    height: 100px;
+    display: flex;
+ }
+
+ h1 {
+    color: #422c5f;
+ }
+
+ h5 {
+    color: #999999;
+ }
+
+ .titolo-pt-1 {
+    background-color: rgb(167, 255, 255);
+ }
+
+ .titolo-pt-2 {
+    background-color: rgb(250, 194, 255);
  }
 
 
