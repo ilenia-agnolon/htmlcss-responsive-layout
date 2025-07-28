@@ -255,7 +255,24 @@ hr {
 *************************************************/
 
 /* TABLET */
+@media screen and (max-width:1020px) {
 
+.cont-video-e-txt {
+    display: block;
+}
+
+.cont-video {
+    width: 100%;
+}
+
+.cont-txt {
+    width: 100%;
+}
+
+}
 
 
 /* SMARTPHONE */
+ @media screen and (max-width:640px) {
+
+ }
