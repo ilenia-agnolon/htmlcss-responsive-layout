@@ -45,8 +45,10 @@ body {
     margin: 0 auto;
  }
 
-
+/* ___________________________________________ */
  /* sezione video e prime info ricetta */
+
+ /* -----> TITOLO RICETTA */
  .cont-titolo {
     background-color: rgb(28, 179, 161);
     height: 100px;
@@ -68,6 +70,39 @@ body {
  .titolo-pt-2 {
     background-color: rgb(250, 194, 255);
  }
+
+ /* -----> IMMAGINE/VIDEO E PRIME INFO */
+.cont-video-e-txt {
+    width: 100%;
+    display: flex;
+}
+
+.cont-video {
+    width: 70%;
+}
+
+.cont-video img {
+   width: 100%;
+   display: block; 
+}
+
+.cont-txt {
+    width: 30%;
+    padding: 20px 30px;
+}
+
+.cont-txt h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.cont-txt ul li {
+   list-style: none;
+   line-height: 2.5; 
+}
+
+
+ /* ___________________________________________ */
 
 
   /*************************************************
