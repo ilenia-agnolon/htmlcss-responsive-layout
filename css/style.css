@@ -186,16 +186,36 @@ hr {
 }
 
 
-
   /*************************************************
     FOOTER
  *************************************************/
  footer {
-    height: 60px;
     background-color: #7c69a4;
     margin: 0 auto;
+    color: white;
  }
 
+ .cont-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+ }
+
+ address {
+    padding-top: 10px;
+ }
+
+  .cont-right {
+    display: flex;
+    align-items: center
+ }
+
+ .cont-right ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+ }
 
 
 
